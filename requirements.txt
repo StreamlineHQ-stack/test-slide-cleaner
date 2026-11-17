@@ -1,10 +1,8 @@
---prefer-binary
 streamlit
 numpy==1.26.4
 Pillow==10.4.0
 opencv-python-headless==4.9.0.80
-torch
-torchvision
---index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+torchvision==0.17.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 easyocr==1.7.1
-simple-lama-inpainting==0.1.2
