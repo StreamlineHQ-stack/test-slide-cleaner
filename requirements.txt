@@ -1,9 +1,9 @@
 streamlit
-numpy>=1.24
+numpy>=1.26.0
 Pillow>=9.5
 opencv-python-headless>=4.8
-torch --index-url https://download.pytorch.org/whl/cpu
-torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+--extra-index-url https://download.pytorch.org/whl/cpu
 easyocr>=1.7
 simple-lama-inpainting>=0.1.2
-gradio>=4.0
