@@ -1,9 +1,10 @@
+--prefer-binary
 streamlit
-numpy>=1.26.0
-Pillow>=9.5
-opencv-python-headless>=4.8
+numpy==1.26.4
+Pillow==10.4.0
+opencv-python-headless==4.9.0.80
 torch
 torchvision
---extra-index-url https://download.pytorch.org/whl/cpu
-easyocr>=1.7
-simple-lama-inpainting>=0.1.2
+--index-url https://download.pytorch.org/whl/cpu
+easyocr==1.7.1
+simple-lama-inpainting==0.1.2
